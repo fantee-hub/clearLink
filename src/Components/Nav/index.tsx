@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isSolutionsVisible, setIsSolutionsVisble] = useState(false);
   const [isResourceVisible, setIsResourceVisible] = useState(false);
   return (
-    <nav className="flex justify-between items-center max-w-[1472px] 2xl:mx-auto mx-4  rounded-full h-20 bg-gray-100 py-4 px-8 sticky mt-10">
+    <nav className="flex justify-between items-center max-w-[1472px] 2xl:mx-auto mx-4  rounded-full h-20 bg-gray-100 py-4 px-8 fixed top-10 right-0 left-0 z-[999]">
       <div className="flex items-center gap-2">
         <span>
           <img src={logo.src} alt="logo" />
