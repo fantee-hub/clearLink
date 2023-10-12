@@ -1,11 +1,12 @@
 import React from "react";
 import bot from "../../../public/assets/icons/bot.svg";
+import heroImage from "@/public/assets/images/hero-bg.png";
 
 const Hero = () => {
   return (
-    <section className="max-w-[1472px] 2xl:mx-auto px-4 mx-auto relative">
+    <section className="max-w-[1472px] 2xl:mx-auto px-10 mx-auto relative">
       <div className="bg-hero-background bg-cover bg-no-repeat w-full h-full">
-        <div className="pt-[260px]">
+        <div className="pt-[260px] flex justify-between gap-5 pb-[96px]">
           <div className="flex flex-col gap-6">
             <div className="text-slate-800 text-6xl font-semibold leading-[1.1]">
               Uniting the world,
@@ -27,6 +28,51 @@ const Hero = () => {
                   <img src={bot.src} alt="bot" />
                 </span>
                 <span>Discover AI assistant</span>
+              </div>
+            </div>
+            <div className="flex gap-4 mt-14">
+              <div>
+                <img src="/assets/images/Avatar group.png" alt="avatar group" />
+              </div>
+              <div>
+                <div className="flex gap-2 text-slate-700">
+                  <span>
+                    <img src="/assets/icons/Stars.svg" alt="stars" />
+                  </span>
+                  <span>5.0</span>
+                </div>
+                <div className="text-slate-600">from 3,000+ reviews</div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-sky-50 p-8 rounded-2xl shadow-[0px_32px_64px_12px_rgba(16_,24_,40_,0.14)] border border-sky-200">
+            <div>
+              <img src={heroImage.src} alt="hero bg" />
+            </div>
+            <div className="pt-10 flex justify-center items-center gap-4">
+              <div className="w-11 h-11 flex justify-center items-center rounded-full bg-white shadow border border-blue-100">
+                <img src="/assets/icons/microphone-01.svg" alt="microphone" />
+              </div>
+              <div className="w-11 h-11 flex justify-center items-center rounded-full bg-white shadow border border-blue-100">
+                <img
+                  src="/assets/icons/video-recorder.svg"
+                  alt="video recorder"
+                />
+              </div>
+              <div className="w-11 h-11 flex justify-center items-center rounded-full bg-white shadow border border-blue-100">
+                <img src="/assets/icons/monitor-01.svg" alt="monitor" />
+              </div>
+              <div className="w-11 h-11 flex justify-center items-center rounded-full bg-white shadow border border-blue-100">
+                <img src="/assets/icons/face-smile.svg" alt="face smile" />
+              </div>
+              <div className="w-11 h-11 flex justify-center items-center rounded-full bg-white shadow border border-blue-100">
+                <img
+                  src="/assets/icons/message-text-circle-02.svg"
+                  alt="message"
+                />
+              </div>
+              <div className="w-11 h-11 flex justify-center items-center rounded-full bg-white shadow border border-blue-100">
+                <img src="/assets/icons/settings-01.svg" alt="microphone" />
               </div>
             </div>
           </div>
