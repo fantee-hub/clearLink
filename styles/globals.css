@@ -18,6 +18,22 @@
     cursor: not-allowed;
   }
   body {
-    @apply font-normal max-w-[2200px] mx-auto;
+    @apply font-normal max-w-[1728px] mx-auto;
+  }
+  .dropdown-content {
+    animation: fadeIn 0.3s ease-in-out forwards;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      display: block;
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .nav-item:hover .dropdown-content {
+    display: block;
   }
 }
