@@ -4,20 +4,20 @@ import heroImage from "@/public/assets/images/hero-bg.png";
 
 const Hero = () => {
   return (
-    <section className="max-w-[1472px] 2xl:mx-auto px-10 mx-auto relative">
-      <div className="bg-hero-background bg-cover bg-no-repeat w-full h-full">
-        <div className="pt-[260px] flex justify-between gap-5 pb-[96px]">
-          <div className="flex flex-col gap-6">
-            <div className="text-slate-800 text-6xl font-semibold leading-[1.1]">
+    <section className="max-w-[1472px] 2xl:mx-auto lg:px-10 px-4 mx-auto relative">
+      <div className="bg-hero-background bg-cover bg-no-repeat w-full h-full bg-center">
+        <div className="lg:pt-[260px] pt-[120px] flex justify-between lg:gap-5 pb-[96px] lg:flex-row flex-col gap-10">
+          <div className="flex flex-col gap-6 text-center lg:text-left">
+            <div className="text-slate-800 lg:text-6xl text-3xl font-semibold leading-[1.1]">
               Uniting the world,
               <br /> one video call at a time
             </div>
-            <div className="text-gray-500 text-2xl">
-              Experience the future of communication with ClearLink – <br />{" "}
-              where crystal-clear video conferencing meets
+            <div className="text-gray-500 lg:text-2xl text-base max-w-[41rem] lg:mx-0 mx-auto">
+              Experience the future of communication with ClearLink – where
+              crystal-clear video conferencing meets
               <br /> unparalleled simplicity.
             </div>
-            <div className="mt-6 flex items-center gap-5">
+            <div className="lg:mt-6 flex items-center gap-5 lg:flex-row flex-col-reverse mt-0">
               <div>
                 <button className="w-56 h-14 flex items-center justify-center bg-blue-700 rounded-full shadow text-white font-semibold">
                   Start your free trial
@@ -30,7 +30,7 @@ const Hero = () => {
                 <span>Discover AI assistant</span>
               </div>
             </div>
-            <div className="flex gap-4 mt-14">
+            <div className="flex gap-4 lg:mt-14 mt-4 flex-row justify-center lg:justify-normal">
               <div>
                 <img src="/assets/images/Avatar group.png" alt="avatar group" />
               </div>
@@ -41,11 +41,13 @@ const Hero = () => {
                   </span>
                   <span>5.0</span>
                 </div>
-                <div className="text-slate-600">from 3,000+ reviews</div>
+                <div className="text-slate-600 lg:text-base text-sm">
+                  from 3,000+ reviews
+                </div>
               </div>
             </div>
           </div>
-          <div className="bg-sky-50 p-8 rounded-2xl shadow-[0px_32px_64px_12px_rgba(16_,24_,40_,0.14)] border border-sky-200">
+          <div className="bg-sky-50 p-8 rounded-2xl shadow-[0px_32px_64px_12px_rgba(16_,24_,40_,0.14)] border border-sky-200 max-w-[584px] mx-auto lg:mx-0 w-full">
             <div>
               <img src={heroImage.src} alt="hero bg" />
             </div>
