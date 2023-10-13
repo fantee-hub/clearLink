@@ -5,7 +5,7 @@ const config: Config = {
     "./pages/**/*.{html,js,ts,jsx,tsx,mdx}",
     "./components/**/*.{html,js,ts,jsx,tsx,mdx}",
     "./app/**/*.{html,js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{html,js,ts,jsx,tsx}",
+    "./src/Components/**/*.{html,js,ts,jsx,tsx}",
   ],
   theme: {
     screens: {
