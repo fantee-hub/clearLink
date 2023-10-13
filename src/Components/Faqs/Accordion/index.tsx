@@ -24,7 +24,7 @@ const Accordion = ({
       }`}
     >
       <div className="flex justify-between gap-3">
-        <div className="text-gray-900 text-xl font-semibold pb-2">{title}</div>
+        <div className="text-gray-900 text-xl font-semibold">{title}</div>
         <div>
           <img src={!isOpen ? plus.src : minus.src} alt="" />
         </div>
