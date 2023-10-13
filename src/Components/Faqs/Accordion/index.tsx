@@ -30,7 +30,9 @@ const Accordion = ({
         </div>
       </div>
       <Collapse isOpened={isOpen}>
-        <div className="text-slate-600 text-lg leading-[28px]">{children}</div>
+        <div className="text-slate-600 text-lg leading-[28px] pt-2">
+          {children}
+        </div>
       </Collapse>
     </div>
   );
