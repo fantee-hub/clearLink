@@ -23,8 +23,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <meta name="theme-color" content="#000000"></meta>
-        <meta property="og:title" content="Votar" />
-        {/* <meta property="og:url" content="https://www.votar.ng/" /> */}
+        <meta property="og:title" content="ClearLink" />
+        <meta property="og:url" content="https://clear-link-bay.vercel.app" />
         <meta
           property="og:description"
           content="Uniting the world, one video call at a time"
