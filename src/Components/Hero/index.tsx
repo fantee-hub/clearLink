@@ -12,7 +12,7 @@ const Hero = () => {
               Uniting the world,
               <br /> one video call at a time
             </div>
-            <div className="text-gray-500">
+            <div className="text-gray-500 text-2xl">
               Experience the future of communication with ClearLink – <br />{" "}
               where crystal-clear video conferencing meets
               <br /> unparalleled simplicity.
