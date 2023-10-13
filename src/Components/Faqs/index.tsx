@@ -7,7 +7,7 @@ const Faqs = () => {
   return (
     <section className="max-w-[1472px] 2xl:mx-auto px-10 mx-auto relative py-[96px]">
       <div className="flex justify-between">
-        <div className="flex-1">
+        <div className="w-full">
           <div className="text-blue-700 text-lg font-semibold">Support</div>
           <div className="text-slate-800 text-5xl font-semibold pt-3">FAQs</div>
           <div className="pt-5 text-gray-500 text-2xl leading-[32px]">
@@ -19,7 +19,7 @@ const Faqs = () => {
             </span>
           </div>
         </div>
-        <div className="flex-1">
+        <div className="w-full">
           {faqs.map((item, index) => (
             <Accordion
               key={item.id}
