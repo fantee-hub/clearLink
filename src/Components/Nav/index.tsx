@@ -15,7 +15,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <nav className="lg:flex justify-between items-center max-w-[1472px] w-full 2xl:mx-auto lg:mx-4 m-0  rounded-full h-20 bg-gray-100 py-4 px-8 fixed top-10 right-0 left-0 z-[999] hidden">
+      <nav className="lg:flex justify-between items-center max-w-[1472px] w-full 2xl:mx-auto rounded-full h-20 bg-gray-100 py-4 px-8 fixed top-10 right-0 left-0 z-[999] hidden">
         <div className="flex items-center gap-2">
           <span>
             <img src={logo.src} alt="logo" />

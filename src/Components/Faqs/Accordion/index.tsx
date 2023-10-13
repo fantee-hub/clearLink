@@ -24,10 +24,10 @@ const Accordion = ({
       }`}
     >
       <div className="flex justify-between lg:gap-3 gap-0 relative">
-        <div className="text-gray-900 lg:text-xl text-sm font-semibold ssm:max-w-[38rem] max-w-[17rem]">
+        <div className="text-gray-900 lg:text-xl text-sm font-semibold sm:max-w-[38rem] max-w-[17rem]">
           {title}
         </div>
-        <div className="absolute lg:-right-5 top-0 -right-0">
+        <div className="absolute lg:-right-5 top-0 -right-2">
           <img src={!isOpen ? plus.src : minus.src} alt="" />
         </div>
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const ClearlinkAdvantage = () => {
   return (
-    <section className="max-w-[1472px] 2xl:mx-auto px-10 mx-auto relative lg:py-[96px] py-[50px]">
+    <section className="max-w-[1472px] 2xl:mx-auto lg:px-10 px-4 mx-auto relative lg:py-[96px] py-[50px]">
       <div className="text-center lg:text-left">
         <div className="text-blue-700 lg:text-xl text-base font-semibold">
           The ClearLink Advantage
