@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
         <div>
           <div className="text-gray-500 font-semibold pb-4">Product</div>
-          <ul className="flex flex-col gap-4 text-lg text-slate-600 font-semibold">
+          <ul className="flex flex-col gap-4 text-lg text-slate-600 font-semibold [&>*]:cursor-pointer">
             <li>Overview</li>
             <li>Features</li>
             <li>Solutions</li>
@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
         <div>
           <div className="text-gray-500 font-semibold pb-4">Company</div>
-          <ul className="flex flex-col gap-4 text-lg text-slate-600 font-semibold">
+          <ul className="flex flex-col gap-4 text-lg text-slate-600 font-semibold [&>*]:cursor-pointer">
             <li>About us</li>
             <li>Careers</li>
             <li>Press</li>
@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
         <div>
           <div className="text-gray-500 font-semibold pb-4">Resources</div>
-          <ul className="flex flex-col gap-4 text-lg text-slate-600 font-semibold">
+          <ul className="flex flex-col gap-4 text-lg text-slate-600 font-semibold [&>*]:cursor-pointer">
             <li>Blog</li>
             <li>Events</li>
             <li>Help Centre</li>
@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
         <div>
           <div className="text-gray-500 font-semibold pb-4">Legal</div>
-          <ul className="flex flex-col gap-4 text-lg text-slate-600 font-semibold">
+          <ul className="flex flex-col gap-4 text-lg text-slate-600 font-semibold [&>*]:cursor-pointer">
             <li>Terms</li>
             <li>Privacy</li>
             <li>Cookies</li>
