@@ -4,7 +4,7 @@ const FreeTrial = () => {
   return (
     <section className="max-w-[1572px] 2xl:mx-auto mx-auto relative py-[96px]">
       <div className="flex items-center justify-between gap-[125px]">
-        <div className="pl-10 max-w-[660px]">
+        <div className="pl-14 max-w-[660px]">
           <div className="text-gray-900 text-5xl font-semibold leading-[60px] tracking-[-0.96px]">
             Ready to clear the path to perfect communication?
           </div>
