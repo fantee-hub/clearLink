@@ -30,12 +30,16 @@ const Hero = () => {
                 <span>Discover AI assistant</span>
               </div>
             </div>
-            <div className="flex gap-4 lg:mt-14 mt-4 flex-row justify-center lg:justify-normal">
-              <div>
-                <img src="/assets/images/Avatar group.png" alt="avatar group" />
+            <div className="flex ssm:gap-4 gap-2 lg:mt-14 mt-4 ssm:flex-row flex-col justify-center lg:justify-normal ">
+              <div className="flex flex-col ssm:justify-normal items-center">
+                <img
+                  src="/assets/images/Avatar group.png"
+                  alt="avatar group"
+                  className="w-40 object-contain ssm:w-auto ssm:h-auto"
+                />
               </div>
-              <div>
-                <div className="flex gap-2 text-slate-700">
+              <div className="flex flex-col items-center">
+                <div className="flex ssm:gap-2 gap-1 text-slate-700">
                   <span>
                     <img src="/assets/icons/Stars.svg" alt="stars" />
                   </span>
@@ -47,11 +51,11 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="bg-sky-50 p-8 rounded-2xl shadow-[0px_32px_64px_12px_rgba(16_,24_,40_,0.14)] border border-sky-200 max-w-[584px] mx-auto lg:mx-0 w-full">
+          <div className="bg-sky-50 md:p-8 p-5 rounded-2xl shadow-[0px_32px_64px_12px_rgba(16_,24_,40_,0.14)] border border-sky-200 max-w-[584px] mx-auto lg:mx-0 w-full">
             <div>
               <img src={heroImage.src} alt="hero bg" />
             </div>
-            <div className="pt-10 flex justify-center items-center gap-4">
+            <div className="md:pt-10 pt-5 flex justify-center items-center ssm:gap-4 gap-2">
               <div className="w-11 h-11 flex justify-center items-center rounded-full bg-white shadow border border-blue-100">
                 <img src="/assets/icons/microphone-01.svg" alt="microphone" />
               </div>
